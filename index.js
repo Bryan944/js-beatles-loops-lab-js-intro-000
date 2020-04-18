@@ -16,7 +16,7 @@ var array1 = [];
 
 
 
-    
+
             function johnLennonFacts(facts)    {
               var i = 0;
               var array2 = [];
