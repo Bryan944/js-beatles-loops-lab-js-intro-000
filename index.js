@@ -14,12 +14,12 @@ var array1 = [];
 
 
 
-    var i = 0;
 
-        var array2 = [];
 
-    //array4
+    
             function johnLennonFacts(facts)    {
+              var i = 0;
+              var array2 = [];
                 while (i < facts.length )   {
                       array2.push(facts[i] + '!!!');
                       i++;
