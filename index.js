@@ -36,16 +36,14 @@ var array1 = [];
 
 
 
-var newarr1 = [];
-var n = 0 ;
+
 function iLoveTheBeatles(n){
+  var newarr1 = [];
+  var i = 0 ;
       do{
-        n++;
+        i++;
   newarr1.push(`I love the Beatles!`)
 }
-while (n < 15);
-if(n > 17){
-return `I love the Beatles!`;
-}
-  return newarr1;
+while (i < n);
+return newarr1;
 }
