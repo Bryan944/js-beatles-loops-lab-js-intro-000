@@ -30,9 +30,9 @@ var allFacts = facts.concat(facts2)
 
         function johnLennonFacts()    {
             while (i < facts.length )   {
-                  array2.push(facts[i++] + '!!!');
+                  array2.push(allFacts[i++] + '!!!');
 }
-        return allFacts ;
+        return array2 ;
 }
 
 
