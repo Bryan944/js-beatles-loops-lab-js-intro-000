@@ -31,7 +31,7 @@ const facts2 = ["While on tour, he enjoyed playing Monopoly",
         function johnLennonFacts()    {
             while (i < facts.length )   {
                   array2.push(facts[i++] + '!!!');
-}            
+}
         return array2 ;
 }
 
