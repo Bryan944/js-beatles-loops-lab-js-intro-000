@@ -22,18 +22,16 @@ const facts2 = ["While on tour, he enjoyed playing Monopoly",
       "Harmonica was the first instrument Lennon learned to play"
     ];
     var i = 0;
-        var n = 0;
+        
         var array2 = [];
-        var array3 = [];
-        var array4 = [];
+        
     //array4
-            function johnLennonFacts()    {
+            function johnLennonFacts(facts)    {
                 while (i < facts.length )   {
-                      array2.push(facts[i++] + '!!!');
-    }           while (n < facts2.length )   {
-                      array3.push(facts2[n++] + '!!!');
-    }
-            return array4 = array2.concat(array3);
+                      array2.push(facts[i] + '!!!');
+                      i++;
+    }          
+            return array2;
     }
 
 
