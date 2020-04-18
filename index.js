@@ -39,11 +39,11 @@ var array1 = [];
 
 function iLoveTheBeatles(n){
   var newarr1 = [];
-  var i = 0 ;
+  
       do{
-        i++;
+        n++;
   newarr1.push(`I love the Beatles!`)
 }
-while (i < n);
+while (n < 15);
 return newarr1;
 }
