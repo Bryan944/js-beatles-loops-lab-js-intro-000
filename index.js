@@ -26,7 +26,7 @@ const facts2 = ["While on tour, he enjoyed playing Monopoly",
         var array2 = [];
         var array3 = [];
         var array4 = [];
-    //array4 
+    //array4
             function johnLennonFacts()    {
                 while (i < facts.length )   {
                       array2.push(facts[i++] + '!!!');
