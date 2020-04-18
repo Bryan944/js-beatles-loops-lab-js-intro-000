@@ -1,26 +1,19 @@
 // add solution here
-const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
-var array1 = [];
-function theBeatlesPlay(){
 
+
+function theBeatlesPlay(musicians,instruments){
+var array1 = [];
     for (var i = 0; i < musicians.length; i++) {
-          for (var i = 0; i < instruments.length; i++) {
                     array1.push(musicians[i]+' '+ 'plays' +' ' +instruments[i])
-}
+
 }return array1;
 }
 
 
 
-const facts = ["He was the last Beatle to learn to drive",
-      "He was never a vegetarian",
-      "He was a choir boy and boy scout",
-      "He hated the sound of his own voice"];
 
-const facts2 = ["While on tour, he enjoyed playing Monopoly",
-      "Harmonica was the first instrument Lennon learned to play"
-    ];
+
+
     var i = 0;
 
         var array2 = [];
