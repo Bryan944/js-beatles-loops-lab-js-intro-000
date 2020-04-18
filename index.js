@@ -21,9 +21,9 @@ const facts = ["He was the last Beatle to learn to drive",
 const facts2 = ["While on tour, he enjoyed playing Monopoly",
       "Harmonica was the first instrument Lennon learned to play"
     ];
-
+var allFacts = facts.concat(facts2)
     var i = 0;
-    var n = 0;
+    //var n = 0;
     var array2 = [];
     //var array3 = [];
 
@@ -32,7 +32,7 @@ const facts2 = ["While on tour, he enjoyed playing Monopoly",
             while (i < facts.length )   {
                   array2.push(facts[i++] + '!!!');
 }
-        return array2 ;
+        return allFacts ;
 }
 
 
